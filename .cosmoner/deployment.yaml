@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://cosmoner.com/schemas/app.schema.json
+version: 1
+name: Hono API
+
+services:
+  - name: api
+    type: service
+    autodeploy: true
